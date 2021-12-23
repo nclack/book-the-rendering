@@ -1,0 +1,23 @@
+# Book settings
+# Learn more at https://jupyterbook.org/customize/config.html
+
+title: ""
+author: Nathan Clack
+logo: assets/logo/The Rendering-logos.jpeg
+
+execute:
+  execute_notebooks: force
+
+# Define the name of the latex output file for PDF builds
+latex:
+  latex_documents:
+    targetname: book.tex
+
+repository:
+  url: https://github.com/nclack/book-the-rendering
+  path_to_book: docs # Optional path to your book, relative to the repository root
+  branch: main # Which branch of the repository should be used when creating links (optional)
+
+html:
+  use_issues_button: true
+  use_repository_button: true
