@@ -6,5 +6,5 @@ root: intro
 chapters:
 - file: SamplingWithTransforms1
 - file: SamplingWithTransforms2
-- file: 2021 Dec Slicing 3
+- file: SamplingWithTransforms3
 - file: 2021 Dec Slicing 4
